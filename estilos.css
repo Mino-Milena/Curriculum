@@ -1,0 +1,20 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Unifraktur Maguntia Regular";
+    src: url(Fonts/UnifrakturMaguntia-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "SedgwickAveDisplay Regular";
+    src: url(Fonts/SedgwickAveDisplay-Regular.ttf) format(truetype);
+}
+h1 {
+    font-family: 'Unifraktur Maguntia Regular', monospace;
+    color: rgb(52, 11, 93);
+}
+h2 {
+    font-family: 'SedgwickAveDisplay Regular', monospace;
+    color: rgb(3, 45, 83);
+}
