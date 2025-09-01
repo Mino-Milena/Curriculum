@@ -77,3 +77,32 @@ h5{
 p{
     font-size: 2rem;
 }
+
+.linea-color{
+    background-color: #683166;
+    height: 6px;
+}
+
+h4{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contactos{
+    background-color: #b481b2;
+    font-size: 2rem;
+}
+
+.redes1-2{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+
+}
