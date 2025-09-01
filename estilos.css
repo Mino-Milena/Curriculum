@@ -1,6 +1,8 @@
 /* CSS DOCUMENT */
 @charset "UTF-8";
 
+/*configuraciones generales*/
+
 @font-face {
     font-family: "Unifraktur Maguntia Regular";
     src: url(Fonts/UnifrakturMaguntia-Regular.ttf) format(truetype);
@@ -10,11 +12,68 @@
     font-family: "SedgwickAveDisplay Regular";
     src: url(Fonts/SedgwickAveDisplay-Regular.ttf) format(truetype);
 }
-h1 {
-    font-family: 'Unifraktur Maguntia Regular', monospace;
-    color: rgb(52, 11, 93);
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
-h2 {
-    font-family: 'SedgwickAveDisplay Regular', monospace;
-    color: rgb(3, 45, 83);
+
+body {
+    background-color: #ffd1ff;
+}
+
+section{
+    width: 100vw;
+}
+/*aca empiezan las aplicaciones*/
+
+h1 {
+    font-family: "Staatliches", sans-serif;
+    color: rgb(29, 21, 37);
+    font-size: 6rem;
+}
+
+#menu {
+    background-color: #8e598c;
+    display: flex;
+    padding: 8px; 
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    gap: 80px;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#presentación{
+    background-color: #683166;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: solid;
+    border-color: #b481b2;
+    border-width: 4px;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 10px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+h5{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
 }
