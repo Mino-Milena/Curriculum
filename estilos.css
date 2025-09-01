@@ -104,5 +104,48 @@ h4{
     align-content: space-between;
     justify-content: space-around;
     align-items: center;
+}
 
+#habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: solid;
+    border-color: #683166;
+    border-width: 4px;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 10px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+#estudios{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: solid;
+    border-color: #683166;
+    border-width: 4px;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 10px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    margin: 10px;
+    max-width: 1000px;
+    align-items: center;
 }
