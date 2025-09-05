@@ -4,19 +4,16 @@
 /*configuraciones generales*/
 
 @font-face {
-    font-family: "Unifraktur Maguntia Regular";
-    src: url(Fonts/UnifrakturMaguntia-Regular.ttf) format(truetype);
+    font-family: "Magtis ExtraBold";
+    src: url(Fonts/Magtis-ExtraBold-free\ personal\ use.otf) format(truetype);
 }
 
-@font-face {
-    font-family: "SedgwickAveDisplay Regular";
-    src: url(Fonts/SedgwickAveDisplay-Regular.ttf) format(truetype);
-}
 * {
     font-family: "IBM Plex Sans", sans-serif;
     margin: 0;
     padding: 0;
-
+    box-sizing: content-box;
+    list-style: none;
 }
 
 body {
@@ -26,13 +23,9 @@ body {
 section{
     width: 100vw;
 }
-/*aca empiezan las aplicaciones*/
 
-h1 {
-    font-family: "Staatliches", sans-serif;
-    color: rgb(29, 21, 37);
-    font-size: 6rem;
-}
+
+/*aca empiezan las aplicaciones*/
 
 #menu {
     background-color: #8e598c;
@@ -54,42 +47,297 @@ nav{
     flex-wrap: wrap;
 }
 
-#presentación{
-    background-color: #683166;
+#estructura-central{
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-around;
     align-items: flex-start;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* todo hero*/
+
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     border: solid;
     border-color: #b481b2;
+    align-items: center;
     border-width: 4px;
     border-radius: 25px;
     padding: 50px;
     margin: 10px;
     max-width: 1000px;
+}
+
+.yo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     align-items: center;
 }
 
-h5{
-    font-size: 3rem;
+h1 {
+    font-family: "Magtis ExtraBold";
+    color: rgb(29, 21, 37);
+    font-size: 8rem;
 }
-p{
+
+#bajada{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 100px;
+    margin: 5px;
+}
+
+/*aca empieza mi presentación*/
+/*esto es sobre mi*/
+
+#sobre-mi{
+    padding: 20px;
+    margin: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoyo{
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.flexdatos{
+    background-color: #683166;
+    padding: 40px;
+    margin: 20px;
+    border-width: 4px;
+    border-radius: 25px;
+    max-width: 685px;
+}
+
+#texto-presentación{
+    font-size: 1.5rem;
+    color: #ffd1ff;
+}
+
+#subtitulo-presentación{
+    font-size: 2.5rem;
+    color: #ffd1ff;
+    font-style: italic;
+}
+
+/*esto es mis conocimientos y experiencias*/
+
+#conocimientos-experiencias{
+    padding: 10px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.estudios-trabajo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.caja1{
+    border: solid;
+    border-color: #683166;
+    border-width: 6px;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+#estudios{
+    font-size: 2.5rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.escuela{
+    font-size: 1.8rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.bajada-escuela{
+    font-size: 1.2rem;
+}
+
+.universidad{
+    font-size: 1.8rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.bajada-universidad{
+    font-size: 1.2rem;
+}
+
+/*experiencia laboral*/
+
+#flex-experiencia-laboral{
+    border: solid;
+    border-color: #683166;
+    border-width: 6px;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 10px;
+    max-width: 500px;
+}
+
+.trabajos{
+    font-size: 2.5rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.primer-trabajo{
+    font-size: 1.8rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.bajada-1{
+    font-size: 1.2rem;
+}
+
+.segundo-trabajo{
+    font-size: 1.8rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.bajada-2{
+    font-size: 1.2rem;
+}
+
+.tercer-trabajo{
+    font-size: 1.8rem;
+    color: #683166;
+    font-style: italic;
+}
+
+.bajada-3{
+    font-size: 1.2rem;
+}
+
+/*Aca empieza otras skills*/
+/*idiomas*/
+
+#flex-aptitudes{
+    padding: 10px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-idiomas{
+    background-color: #8e598c;
+    border-width: 6px;
+    border-radius: 25px;
+    padding: 28px;
+    margin: 10px;
+    max-width: 575px;
+}
+
+#idioma-titulo{
+    font-size: 2.2rem;
+    color: #ffd1ff;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#idiomas{
+    font-size: 1.2rem;
+}
+
+/*Aca empieza habilidades*/
+
+#flex-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+     background-color: #8e598c;
+    border-width: 6px;
+    border-radius: 25px;
+    padding: 28px;
+    margin: 10px;
+    max-width: 840px;
+}
+
+#titulo-skill{
+    font-size: 2.2rem;
+    color: #ffd1ff;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 5px;
+    padding: 25px 0 25px 0;
+    margin-left: 25px;
+}
+
+#trabaja-conmigo{
+    background-color: #683166;
+    height: 200px;
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 25px;
+}
+
+h2{
+    font-size: 2.8rem;
+    font-weight: 400;
+    font-style: oblique;
+    color: #ffd1ff;
+}
+
+
+h5{
     font-size: 2rem;
 }
 
-.linea-color{
-    background-color: #683166;
-    height: 6px;
+p{
+    font-size: 1.5rem;
 }
 
-h4{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
-    padding: 40px;
-}
 
 .contactos{
     background-color: #b481b2;
@@ -103,49 +351,5 @@ h4{
     flex-direction: row;
     align-content: space-between;
     justify-content: space-around;
-    align-items: center;
-}
-
-#habilidades{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around;
-    align-items: flex-start;
-    border: solid;
-    border-color: #683166;
-    border-width: 4px;
-    border-radius: 25px;
-    padding: 50px;
-    margin: 10px;
-    max-width: 1000px;
-    align-items: center;
-}
-
-#estudios{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around;
-    align-items: flex-start;
-    border: solid;
-    border-color: #683166;
-    border-width: 4px;
-    border-radius: 25px;
-    padding: 50px;
-    margin: 10px;
-    max-width: 1000px;
-    align-items: center;
-}
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 50px;
-    margin: 10px;
-    max-width: 1000px;
     align-items: center;
 }

@@ -22,50 +22,87 @@
             </nav>
         </div>
     </header>
-    <!--Aca va la presentación-->
-    <main>
-        <section id="presentación">
-            <img src="img/yo.jpg" alt="Foto yo" width="406" height="360" />
-            <h1>MILENA MIÑO</h1>
-            <h5 id="subtitulo-presentación">Casi Diseñadora gráfica</h5>
-            <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y
-                Comunicación Visual en
-                UNLa. Soy de Buenos Aires, Argentina. Acá comparto un poco de lo que soy.</p>
+    <!--Aca va un hero-->
+    <main id="estructura-central">
+        <section id="hero">
+            <article class="yo">
+                <h1>Milena Miño</h1>
+                <p id="bajada">Estudiante de Diseño y Comunicación Visual</p>
+            </article>
         </section>
-        <section id="habilidades">
-            <h3>HABILIDADES EN USO DE</h3>
-            <ul>
-                <li>InDesing</li>
-                <li>Illustrator</li>
-                <li>Photoshop</li>
-            </ul>
+        <section id="sobre-mi">
+            <img src="img/yo.jpg" alt="Mi foto del CV" width="406" height="360" class="fotoyo" />
+            <div class="flexdatos">
+                <h3 id="subtitulo-presentación">Sobre mi</h3>
+                <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y
+                    Comunicación Visual en UNLa, me apasiona explorar la relación entre estética y mensaje. Busco
+                    integrar creatividad, estrategia y tecnología en proyectos que generen impacto, me motiva aprender y
+                    experimentar. Soy de Buenos Aires, Argentina. Acá comparto un poco de lo que soy.</p>
+            </div>
         </section>
-        <section id="estudios">
-            <h3>Educación</h3>
-            <ul>
-                <li>Colegio Modelo Sara Eccleston, Bachiller de Ciencias Sociales.
-                    Febrero del 2008- Diciembre 2020
-                </li>
-                <li>Universidad de Nacional de Lanús, Lic. en Diseño y Comunicación Visual.
-                    Abril 2022- en curso
-                </li>
-            </ul>
+        <!--Aca van mis conocimientos y experiencias-->
+        <section id="conocimientos-experiencias">
+            <div class="estudios-trabajo">
+                <section class="caja1">
+                    <h3 id="estudios">Estudios</h3>
+                    <ul>
+                        <li class="escuela">Bachiller de Ciencias Sociales</li>
+                        <p class="bajada-escuela"> Colegio Modelo Sara Eccleston (2008- 2020)</p>
+                        <li class="universidad">Lic. en Diseño y Comunicación Visual</li>
+                        <p class="bajada-universidad">Universidad de Nacional de Lanús (Abril 2022- en curso)</p>
+                    </ul>
+                </section>
+                <article id="flex-experiencia-laboral">
+                    <h3 class="trabajos">Experiencia Laboral</h3>
+                    <ul>
+                        <li class="primer-trabajo">Atención al publico</li>
+                        <p class="bajada-1">Vendedora de ropa (Julio 2022- Septiembre 2023)</p>
+                        <li class="segundo-trabajo">Atención al publico</li>
+                        <p class="bajada-2">Mesera en cafetería (Abril 2024 - actualidad)</p>
+                        <li class="tercer-trabajo">Diseñadora Freelance</li>
+                        <p class="bajada-3">Agosto 2024 - actualidad</p>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <!--Otras skills-->
+        <section id="flex-aptitudes">
+            <article class="caja-idiomas">
+                <h4 id="idioma-titulo">Idiomas</h4>
+                <ul id="idiomas">
+                    <li>Español</li>
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <li>Ingles</li>
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-02.png" width="50" height="50" alt="estrellita-borde" />
+                    <li>Japones</li>
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-02.png" width="50" height="50" alt="estrellita-borde" />
+                    <img src="img/iconos-02.png" width="50" height="50" alt="estrellita-borde" />
+                    <li>Frances</li>
+                    <img src="img/iconos-01.png" width="50" height="50" alt="estrellita" />
+                    <img src="img/iconos-02.png" width="50" height="50" alt="estrellita-borde" />
+                    <img src="img/iconos-02.png" width="50" height="50" alt="estrellita-borde" />
+                </ul>
+            </article>
+            <section id="flex-skills"> 
+                <h4 id="titulo-skill">Manejo de</h4>
+                <article class="iconos">
+                    <img src="img/iconos-03.png" width="200" height="200" alt="illus"/>
+                    <img src="img/iconos-04.png" width="200" height="200" alt="inde"/>
+                    <img src="img/iconos-05.png " width="200" height="200" alt="Photo"/>
+                </article>
+            </section>
+        </section>
+        <section id="trabaja-conmigo">
+            <h2>Si te interesa sumar mi visión a tu proyecto, contactame!</h2>
         </section>
     </main>
     <footer>
-        <div class="linea-color"></div>
-        <div class="contactame">
-            <h4> Si te interesa incorporar mi vision a tus proyectos no dudes en contactarme.
-            </h4>
-        </div>
-        <section class="contactos">
-            <h3 class="misredes"> Mis Redes</h3>
-            <div class="redes1-2">
-                <ul>
-                    <li>Instagram</li>
-                    <li>Behance</li>
-                </ul>
-            </div>
+        
     </footer>
 </body>
 
