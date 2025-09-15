@@ -12,27 +12,23 @@
 </head>
 
 <body>
-    <header id="menu">
-        <div class="contenedor">
-            <img src="img/lunita.png" alt="luna" width="100 " height="100" />
-            <nav>
-                <a class="boton" href="#">SOBRE MI</a>
-                <a class="boton" href="#">APTITUDES</a>
-                <a class="boton" href="#">PROYECTOS DESTACADOS</a>
-                <a class="boton" href="#">CONTACTO</a>
-            </nav>
+    <header>
+        <nav id="botonera">
+            <a class="boton" href="#">SOBRE MI</a>
+            <a class="boton" href="#">APTITUDES</a>
+            <a class="boton" href="#">CONTACTO</a>
+        </nav>
         </div>
     </header>
     <!--Aca va un hero-->
-    <main id="estructura-central">
+    <main>
         <section id="hero">
-            <article class="yo">
-                <h1>Milena Miño</h1>
-                <p id="bajada">Estudiante de Diseño y Comunicación Visual</p>
-            </article>
+            <h1>Milena Miño</h1>
+            <p id="bajada">Estudiante de Diseño y Comunicación Visual</p>
         </section>
+        <!--seccion sobre mi-->
         <section id="sobre-mi">
-            <img src="img/yo.jpg" alt="Mi foto del CV" width="406" height="360" class="fotoyo" />
+            <img src="img/yo.jpg" alt="Mi foto del CV" width="406" height="360" class="foto_cv" />
             <div class="flexdatos">
                 <h3 id="subtitulo-presentación">Sobre mi</h3>
                 <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y
@@ -43,28 +39,26 @@
         </section>
         <!--Aca van mis conocimientos y experiencias-->
         <section id="conocimientos-experiencias">
-            <div class="estudios-trabajo">
-                <section class="caja1">
-                    <h3 id="estudios">Estudios</h3>
-                    <ul>
-                        <li class="escuela">Bachiller de Ciencias Sociales</li>
-                        <p class="bajada-escuela"> Colegio Modelo Sara Eccleston (2008- 2020)</p>
-                        <li class="universidad">Lic. en Diseño y Comunicación Visual</li>
-                        <p class="bajada-universidad">Universidad de Nacional de Lanús (Abril 2022- en curso)</p>
-                    </ul>
-                </section>
-                <article id="flex-experiencia-laboral">
-                    <h3 class="trabajos">Experiencia Laboral</h3>
-                    <ul>
-                        <li class="primer-trabajo">Atención al publico</li>
-                        <p class="bajada-1">Vendedora de ropa (Julio 2022- Septiembre 2023)</p>
-                        <li class="segundo-trabajo">Atención al publico</li>
-                        <p class="bajada-2">Mesera en cafetería (Abril 2024 - actualidad)</p>
-                        <li class="tercer-trabajo">Diseñadora Freelance</li>
-                        <p class="bajada-3">Agosto 2024 - actualidad</p>
-                    </ul>
-                </article>
-            </div>
+            <article class="caja-estudios">
+                <h3 id="estudios">Estudios</h3>
+                <ol>
+                    <li class="titulos-estudios">Bachiller de Ciencias Sociales</li>
+                    <p class="bajadas-estudios"> Colegio Modelo Sara Eccleston (2008- 2020)</p>
+                    <li class="titulos-estudios">Lic. en Diseño y Comunicación Visual</li>
+                    <p class="bajadas-estudios">Universidad de Nacional de Lanús (Abril 2022- en curso)</p>
+                </ol>
+            </article>
+            <article id="flex-experiencia-laboral">
+                <h3 class="trabajos">Experiencia Laboral</h3>
+                <ol>
+                    <li class="titulos-trabajo">Atención al publico</li>
+                    <p class="bajada-trabajos">Vendedora de ropa (Julio 2022- Septiembre 2023)</p>
+                    <li class="titulos-trabajo">Atención al publico</li>
+                    <p class="bajada-trabajos">Mesera en cafetería (Abril 2024 - actualidad)</p>
+                    <li class="titulos-trabajo">Diseñadora Freelance</li>
+                    <p class="bajada-trabajos">Agosto 2024 - actualidad</p>
+                </ol>
+            </article>
         </section>
         <!--Otras skills-->
         <section id="flex-aptitudes">
@@ -72,12 +66,12 @@
                 <h4 id="idioma-titulo">Idiomas</h4>
                 <ul id="idiomas">
                     <li>Español</li>
-                    <img src="img/estrella completa.png" width="50"  alt="estrellita" />
-                    <img src="img/estrella completa.png" width="50"  alt="estrellita" />
+                    <img src="img/estrella completa.png" width="50" alt="estrellita" />
+                    <img src="img/estrella completa.png" width="50" alt="estrellita" />
                     <img src="img/estrella completa.png" width="50" alt="estrellita" />
                     <li>Ingles</li>
-                    <img src="img/estrella completa.png" width="50"  alt="estrellita" />
-                    <img src="img/estrella completa.png" width="50"  alt="estrellita" />
+                    <img src="img/estrella completa.png" width="50" alt="estrellita" />
+                    <img src="img/estrella completa.png" width="50" alt="estrellita" />
                     <img src="img/borde estrella.png" width="50" alt="estrellita-borde" />
                     <li>Japones</li>
                     <img src="img/estrella completa.png" width="50" alt="estrellita" />
@@ -89,14 +83,14 @@
                     <img src="img/borde estrella.png" width="50" alt="estrellita-borde" />
                 </ul>
             </article>
-            <section id="flex-skills">
+            <div id="flex-skills">
                 <h4 id="titulo-skill">Manejo de</h4>
                 <article class="iconos">
-                    <img src="img/illus.png" width="200"alt="illus" />
-                    <img src="img/indesing.png" width="200" alt="inde" />
-                    <img src="img/photo.png" width="200" alt="Photo" />
+                    <img src="img/illustrator.png" width="180" alt="illustrator" />
+                    <img src="img/indesing.png" width="180" alt="indesing" />
+                    <img src="img/photoshop.png" width="180" alt="photoshop" />
                 </article>
-            </section>
+            </div>
         </section>
         <section id="trabaja-conmigo">
             <h2>Si te interesa sumar mi visión a tu proyecto, contactame!</h2>
@@ -106,15 +100,15 @@
         <section id="text-footer">
             <article class="contact">
                 <p>Catedra Wischñevsky 2025</p>
-                <br>
                 <p>milena0mino@gmail.com</p>
             </article>
-             <div id="links">
+            <div id="links">
                 <nav>
-                    <a href="https://www.instagram.com/wg.lenah.dg/"><img src="img/insta.png" width="140" alt="instagram" /></a>
-                    <a href="#"><img src="img/Behance.png" width="140" alt="Behance"/></a>
+                    <a href="https://www.instagram.com/wg.lenah.dg/"><img src="img/insta.png" width="140"
+                            alt="instagram" /></a>
+                    <a href="#"><img src="img/Behance.png" width="140" alt="Behance" /></a>
                 </nav>
-             </div>
+            </div>
         </section>
     </footer>
 </body>
