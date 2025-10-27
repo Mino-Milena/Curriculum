@@ -4,7 +4,7 @@
 /*configuraciones generales*/
 
 @font-face {
-    font-family: "Magtis ExtraBold";
+    font-family:"Magtis ExtraBold";
     src: url(Fonts/Magtis-ExtraBold-free\ personal\ use.otf) format(truetype);
 }
 
@@ -12,7 +12,7 @@
     font-family: "IBM Plex Sans", sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     list-style: none;
 }
 
@@ -28,16 +28,21 @@ section{
 /*aca empiezan las aplicaciones*/
 
 header{
-    background-color: #b481b2;
-    padding-top: 10px;
+    background-color: #683166;
+    padding: 10px;
 }
 
-#botonera{
+#menu-principal{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 8vh;
+}
+
+.botonera{
+    display: flex;
+    gap: 180px;
+    padding: 50px;
 }
 
 .boton{
@@ -69,7 +74,7 @@ main{
 
 h1 {
     font-family: "Magtis ExtraBold";
-    color: rgb(29, 21, 37);
+    color: #1d1525;
     font-size: 10rem;
 }
 
@@ -91,6 +96,7 @@ h1 {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 }
 
 .foto_cv{
@@ -126,6 +132,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    padding: 25px;
 }
 
 /*estudios*/
@@ -200,7 +207,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 25px;
+    padding: 25px;
 }
 
 /*idiomas*/
@@ -285,17 +292,55 @@ h2{
 
 /*aca empieza el footer*/
 
-#text-footer{
-    background-color: #b481b2;
+footer{
+    background-color: #683166;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    width: 100%;
+    padding: 40px;
 }
 
-.contact{
-    font-size: 1.5rem;
+.canción{
+    background-color: #b481b2;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    padding: 20px;
+    border-top: 5px solid #ffd1ff;
+}
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
     padding: 50px;
+    color: #ffd1ff;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: oblique;
+    color: #ffd1ff;
+}
+
+.contact-button{
+    background-color: #b481b2; 
+    color: #ffd1ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffd1ff;
+    font-size: 1.5rem;
 }
