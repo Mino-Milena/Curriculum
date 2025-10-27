@@ -3,12 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Miño Milena</title>
+    <link rel="icon" href="img/luna.png" type="img/x-icon">
+    <title>DG|Miño Milena</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" type=im href="img/luna.png" id="logo">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&display=swap');
-    </style>
 </head>
 
 <body>
@@ -21,10 +18,10 @@
             </div>
             <ul class="botonera">
                 <li>
-                   <a class="boton" href="sobremi.html" target="_self">SOBRE MI</a> 
+                    <a class="boton" href="sobremi.html" target="_self">SOBRE MI</a>
                 </li>
                 <li>
-                  <a class="boton" href="#">TRABAJOS</a>  
+                    <a class="boton" href="#">TRABAJOS</a>
                 </li>
                 <li>
                     <a class="boton" href="contacto.html">CONTACTO</a>
@@ -34,88 +31,34 @@
     </header>
     <!--Aca va un hero-->
     <main>
-        <section id="hero">
-            <h1>Milena Miño</h1>
-            <p id="bajada">Estudiante de Diseño y Comunicación Visual</p>
+        <section id="hero-index">
+            <h1>PORTFOLIO</h1>
+            <article class="main-body">
+                <div class="imagen-container">
+                    <img src="img/yovioleta2.jpg" alt="yo-violeta">
+                </div>
+                <div class="text-area">
+                    <p class="folio">FOLIO</p>
+                    <p class="folio">FOLIO</p>
+                    <p class="folio">FOLIO</p>
+                    <p class="folio">FOLIO</p>
+                </div>
+            </article>
         </section>
         <!--seccion sobre mi-->
-        <section id="sobre-mi">
-            <img src="img/yo.jpg" alt="Mi foto del CV" width="406" height="360" class="foto_cv" />
-            <div class="flexdatos">
-                <h3 id="subtitulo-presentación">Sobre mi</h3>
-                <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y
-                    Comunicación Visual en UNLa, me apasiona explorar la relación entre estética y mensaje. Busco
-                    integrar creatividad, estrategia y tecnología en proyectos que generen impacto, me motiva aprender y
-                    experimentar. Soy de Buenos Aires, Argentina. Acá comparto un poco de lo que soy.</p>
-            </div>
-        </section>
-        <!--Aca van mis conocimientos y experiencias-->
-        <section id="conocimientos-experiencias">
-            <article class="caja-estudios">
-                <h3 id="estudios">Estudios</h3>
-                <ol>
-                    <li class="titulos-estudios">Bachiller de Ciencias Sociales</li>
-                    <p class="bajadas-estudios"> Colegio Modelo Sara Eccleston (2008- 2020)</p>
-                    <li class="titulos-estudios">Lic. en Diseño y Comunicación Visual</li>
-                    <p class="bajadas-estudios">Universidad de Nacional de Lanús (Abril 2022- en curso)</p>
-                </ol>
-            </article>
-            <article id="flex-experiencia-laboral">
-                <h3 class="trabajos">Experiencia Laboral</h3>
-                <ol>
-                    <li class="titulos-trabajo">Atención al publico</li>
-                    <p class="bajada-trabajos">Vendedora de ropa (Julio 2022- Septiembre 2023)</p>
-                    <li class="titulos-trabajo">Atención al publico</li>
-                    <p class="bajada-trabajos">Mesera en cafetería (Abril 2024 - actualidad)</p>
-                    <li class="titulos-trabajo">Diseñadora Freelance</li>
-                    <p class="bajada-trabajos">Agosto 2024 - actualidad</p>
-                </ol>
-            </article>
-        </section>
-        <!--Otras skills-->
-        <section id="flex-aptitudes">
-            <article class="caja-idiomas">
-                <h4 id="idioma-titulo">Idiomas</h4>
-                <ul id="idiomas">
-                    <li>Español</li>
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <li>Ingles</li>
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <li>Japones</li>
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <li>Frances</li>
-                    <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                </ul>
-            </article>
-            <div id="flex-skills">
-                <h4 id="titulo-skill">Manejo de</h4>
-                <article class="iconos">
-                    <img src="img/illustrator.png" width="180" alt="illustrator" />
-                    <img src="img/indesing.png" width="180" alt="indesing" />
-                    <img src="img/photoshop.png" width="180" alt="photoshop" />
-                </article>
-            </div>
-        </section>
-        <section id="trabaja-conmigo">
-            <h2>Si te interesa sumar mi visión a tu proyecto, contactame!</h2>
-        </section>
     </main>
     <footer>
         <div class="canción">
-            <p>Aca debería ir una canción</p>
+            <iframe data-testid="embed-iframe" style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/2LHNTC9QZxsL3nWpt8iaSR?utm_source=generator&theme=0"
+                width="100%" height="352" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
         </div>
         <div class="contacto">
             <h3>Trabajemos Juntos</h3>
             <p>Si te gusto mi trabajo, contáctame y le damos vida a tu idea</p>
-            <a href="#" class="contact-button">CONTACTO</a>
+            <a href="contacto.html" class="contact-button">CONTACTO</a>
         </div>
         <div id="links">
             <nav>

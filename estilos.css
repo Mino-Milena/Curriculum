@@ -5,8 +5,10 @@
 
 @font-face {
     font-family:"Magtis ExtraBold";
-    src: url(Fonts/Magtis-ExtraBold-free\ personal\ use.otf) format(truetype);
+    src: url(Fonts/Magtis-ExtraBold-free\personal\use.otf) format("otf");
 }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&display=swap');
 
 * {
     font-family: "IBM Plex Sans", sans-serif;
@@ -23,7 +25,6 @@ body {
 section{
     width: 100vw;
 }
-
 
 /*aca empiezan las aplicaciones*/
 
@@ -64,7 +65,6 @@ main{
 
 #hero{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     background-color: #b481b2;
@@ -85,6 +85,34 @@ h1 {
     letter-spacing: 2px;
     line-height: 100px;
 }
+
+#hero-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b481b2;
+    padding: 25px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.folio{
+    font-family: "Magtis ExtraBold";
+    color: #ffd1ff;
+    font-size: 10rem;
+}
+
 
 /*aca empieza mi presentación*/
 /*esto es sobre mi*/
@@ -302,14 +330,6 @@ footer{
     padding: 40px;
 }
 
-.canción{
-    background-color: #b481b2;
-    border-bottom: solid;
-    border-bottom-width: 2px;
-    padding: 20px;
-    border-top: 5px solid #ffd1ff;
-}
-
 .contacto{
     display: flex;
     flex-wrap: wrap;
@@ -343,4 +363,50 @@ h3{
     align-items: center;
     color: #ffd1ff;
     font-size: 1.5rem;
+}
+
+/*aca empieza el formulario*/
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.5rem;
+    color: #ffd1ff;
+}
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    background-color: #8e598c;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px;
+    width: 50%;
+}
+
+input{
+    background-color: #ffd1ff;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 15px;
+    border: #ffd1ff;
+    color: #683166;
+}
+
+textarea{
+    height: 200px;
+    background-color: #ffd1ff;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 15px;
+    border: #ffd1ff;
+    color: #683166;
 }
