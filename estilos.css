@@ -99,6 +99,7 @@ h1 {
     line-height: 100px;
 }
 
+/*hero-index*/
 #hero-index{
     display: flex;
     flex-direction: column;
@@ -107,7 +108,7 @@ h1 {
     padding: 25px;
 }
 
-.main-body{
+.main-index{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -124,6 +125,34 @@ h1 {
     font-family: "Magtis ExtraBold";
     color: #ffd1ff;
     font-size: 10rem;
+}
+
+.text_moon_stars{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.animation {
+    animation-name: girar;
+    animation-duration: 17s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.girar {
+    animation: girar 15s linear infinite;
 }
 
 
@@ -314,10 +343,8 @@ h1 {
 footer{
     background-color: #683166;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    padding: 0 15px;
 }
 
 .contacto{
@@ -330,8 +357,8 @@ footer{
     color: #ffd1ff;
 }
 
-h3{
-    font-size: 2rem;
+footer p{
+    font-size: 1.5rem;
     font-weight: 400;
     font-style: oblique;
     color: #ffd1ff;
@@ -355,10 +382,8 @@ h3{
 	transform: scale(1.05);
 }
     
-
 .copyright{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 20px;
    
@@ -513,4 +538,5 @@ h2{
     object-fit: cover;
 }
 
+/*seccion de galeria otros trabajos*/
 
