@@ -556,7 +556,7 @@ h2{
     transition: transform 0.5s ease-in-out;
 }
 
-/* efecto hover */
+/*efecto hover*/
 .especial a {
     position: relative;
     overflow: hidden;
@@ -604,4 +604,35 @@ h2{
     justify-content: center;
     padding: 25px;
 
+}
+
+/*mobile*/
+@media screen and (max-width: 720px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  #menu-principal {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .botonera {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .boton {
+    font-size: 14px;
+    padding: 8px 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .luna-inicio img {
+    width: 100px;
+    height: auto;
+  }
 }
