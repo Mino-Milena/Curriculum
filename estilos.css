@@ -673,7 +673,7 @@ h2{
   }
 
   .folio {
-    font-size: 7rem; /* reduje de 10rem */
+    font-size: 7rem;
   }
 
   .text_moon_stars img {
@@ -700,26 +700,121 @@ h2{
   }
 }
 
-@media screen and (max-width: 720px) {
+/*mobile*/
+@media screen and (max-width: 500px) {
+
+  /* ---------- HEADER ---------- */
   header {
+    padding: 15px 10px;
+  }
+
+  #menu-principal {
     flex-direction: column;
-    padding: 10px;
+    align-items: center;
+    height: auto;
+    gap: 10px;
+  }
+
+  .luna-inicio img {
+    width: 90px;
+    height: auto;
   }
 
   .botonera {
+    display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
   }
 
-  .folio {
-    font-size: 4rem;
+  .boton {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ---------- MAIN (HERO INDEX) ---------- */
+  #hero-index {
+    flex-direction: column;
+    padding: 15px;
+    background-color: #d481b2;
+    align-items: center;
+    text-align: center;
   }
 
   .main-index {
     flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .text_moon_stars img {
+    width: 100px;
+    height: 100px;
   }
 
   .text-area {
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .folio {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .main-index img {
+    width: 80%;
+    height: auto;
+    max-width: 280px;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .copyright img {
+    width: 35px;
+    height: auto;
+  }
+
+  .copyright p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .contacto {
+    margin-top: 10px;
+  }
+
+  .contacto p {
+    font-size: 13px;
+  }
+
+  .contact-button {
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    margin-top: 5px;
   }
 }
