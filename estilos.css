@@ -540,3 +540,60 @@ h2{
 
 /*seccion de galeria otros trabajos*/
 
+.mini_proyectos a {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.mini_proyectos img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* efecto hover */
+.especial a {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.especial img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.especial a::after {
+    content: "Fotografía +";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_textosec);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.especial a:hover::after {
+    opacity: 0.8;
+}
+
+.especial a:hover img {
+    transform: scale(1.05);
+}
