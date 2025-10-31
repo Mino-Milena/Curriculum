@@ -5,7 +5,8 @@
 
 @font-face {
     font-family:"Magtis ExtraBold";
-    src: url(Fonts/Magtis-ExtraBold-free\personal\use.otf) format("otf");
+    src: url(Fonts/Magtis-ExtraBold-free\personal\use.otf) format("otf"), 
+    url(Fonts/Magtis-ExtraBold-free\ personal\ use.woff2) format("woff2");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&display=swap');
