@@ -1,0 +1,33 @@
+TP 3 individual- PORTFOLIO
+El editor de código utilizado fue Visual Studio Code.
+
+image
+
+Se buscó estructurar el portfolio en diferentes html para garantizar una navegación clara y accesible a través de un nav que ofrece botones que permiten moverse fácilmente entre las diferentes secciones. Estas son:
+
+Link a figma:
+https://www.figma.com/design/XfRzVoC0Pszn70ajZ3iOw4/Portfolio?node-id=0-1&p=f&t=gjclNlnCM3iRYgip-0
+
+Descripción del trabajo
+Header:Contiene la navegación principal de la página, tiene enlaces a diferentes secciones como "sobre mi", "trabajos" y "Contacto". También incluye un logo que siempre redirecciona al inicio "index.html".
+
+Archivos html:
+1-index.html: Contiene la presentación del portfolio, con una animación giratoria. En el main se encuentra una foto mía, con la palabra portfolio. Acompañado de la palabra "folio" repetida cuatro veces, como si la foto tapara parte del texto. 
+
+2-sobre mi.html: posee un hero con mi nombre y una bajada. Luego tenemos una introducción a mi persona junto con una foto. Abajo, una sección sobre mis estudios y experiencia laboral. 
+Luego una sección con mis habilidades, los idiomas que hablo y las aplicaciones que manejo.
+
+3-trabajos.html: posee un hero que sirve de portada para presentar mis proyectos. Luego tres secciones. La primera "OTARIINAE" se trata del branding de una marca de ropa, es una galería de tarjetas la cual al hacer hover sobre cada imagen, se estira para apreciar con más detalle el trabajo. 
+La segunda "Museo de lo Roto", branding de un micro-museo, y posee la misma galería de tarjetas que "otariinae". 
+La tercera sección son trabajos extra, un poster, una tapa de vinilo y una fotografia que funciona como boton, al hacer hover, aparece el texto "fotografia +", al hacer click, te lleva a la galeria fotografica. Por ultimo, un video de un prototipo de figma para un trabajo de Medios 3.
+
+4-galeria: la galeria fotografica, al igual que el resto de html, posee un hero de presentacion. En esta nos encontramos con tres secciones. La primera fotografias de un objeto peculiar en distintas situaciones. 
+La segunda una galeria de fotos inspiradas en la fotografa irina werning. La tercera otra galeria de fotos inspirada en el fotografo boleslaw senderowicz. 
+Todas son galerias de tarjetas, las cuales al hacer hover sobre cada imagen, se estiran para apreciar con más detalle la foto.
+
+5-contacto.html: posee un hero y una bajada. Un formulario de contacto, junto a una canción para escuchar mientras se rellenan los datos, y un botón que te linkea a instagram.
+
+footer: posee un sello de copyright, junto al año y mi nombre, y tambien un texto de "todos los derechos reservados". Al otro lado tenemos un botón el cual te linkea a la seccion de "contanto.html".
+Se adapto el index.html para mobile (500px) y pantalla de 1366.
+
+El trabajo de realizo en una pantalla de 1920 x 1080.
