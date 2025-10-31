@@ -598,3 +598,10 @@ h2{
 .especial a:hover img {
     transform: scale(1.05);
 }
+
+.video_figma{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+
+}
