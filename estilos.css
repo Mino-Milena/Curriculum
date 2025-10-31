@@ -23,9 +23,7 @@ body {
     background-color: #ffd1ff;
 }
 
-section{
-    width: 100vw;
-}
+
 
 /*aca empiezan las aplicaciones*/
 
@@ -66,13 +64,6 @@ header{
 
 #nav_abierto{
     background-color: #1d1525;
-}
-
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
 /* todo hero*/
@@ -634,5 +625,101 @@ h2{
   .luna-inicio img {
     width: 100px;
     height: auto;
+  }
+}
+
+/* Adaptación específica para pantallas medianas (1366px o menos) */
+@media screen and (max-width: 1366px) {
+  /* ----- HEADER ----- */
+  header {
+    padding: 10px 25px;
+  }
+
+  #menu-principal {
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+  }
+
+  .luna-inicio img {
+    width: 110px;
+  }
+
+  .botonera {
+    gap: 60px;
+    padding: 0;
+  }
+
+  .boton {
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 8px;
+  }
+
+  /* ----- HERO / MAIN ----- */
+  #hero-index {
+    padding: 20px;
+  }
+
+  .main-index {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .text-area {
+    gap: 10px;
+  }
+
+  .folio {
+    font-size: 7rem; /* reduje de 10rem */
+  }
+
+  .text_moon_stars img {
+    width: 140px;
+    height: 140px;
+  }
+
+  /* ----- FOOTER ----- */
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .copyright img {
+    width: 40px;
+    height: auto;
+  }
+
+  .contacto p,
+  .contacto a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .botonera {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .folio {
+    font-size: 4rem;
+  }
+
+  .main-index {
+    flex-direction: column;
+  }
+
+  .text-area {
+    align-items: center;
   }
 }
