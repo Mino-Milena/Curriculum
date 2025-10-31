@@ -21,10 +21,10 @@
                     <a class="boton" href="sobremi.html" target="_self">SOBRE MI</a>
                 </li>
                 <li>
-                    <a class="boton" href="trabajos.html">TRABAJOS</a>
+                    <a class="boton" href="trabajos.html" target="_self">TRABAJOS</a>
                 </li>
                 <li>
-                    <a class="boton" href="#">CONTACTO</a>
+                    <a class="boton" href="contacto.html" id="nav_abierto" target="_self">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -33,41 +33,55 @@
     <main>
         <section id="hero">
             <h1>Contactame</h1>
-            <p id="bajada">Vamos a darle vida a tus ideas</p>
+            <p id="bajada-h1">Vamos a darle vida a tus ideas</p>
         </section>
-        <section class="formulario">
-            <form method="post" action="mailto:milena0mino@gmail.com?subjet='email enviado desde el formulario'" target="_blank" enctype="text/plain">
-                <h4>//Completa tus datos</h4>
+        <!--Aca va el formulario y redes-->
+        <section class="contact">
+            <div>
+                <form method="post" action="mailto:milena0mino@gmail.com?subjet='email enviado desde el formulario'"
+                    target="_blank" enctype="text/plain">
+                    <h4>//Completa tus datos</h4>
+                    <input type="text" name="Nombre y Apellido" id="Nombre y Apellido" placeholder="Nombre y Apellido"
+                        required>
 
-                <input type="text" name="Nombre y Apellido" id="Nombre y Apellido" placeholder="Nombre y Apellido" required>
+                    <input type="email" name="Mail" id="Mail" placeholder="Mail" required>
 
-                <input type="email" name="Mail" id="Mail" placeholder="Mail" required>
+                    <input type="tel" name="Telefono" id="Telefono" placeholder="Telefono" required>
 
-                <input type="tel" name="Telefono" id="Telefono" placeholder="(000)00000000" required>
+                    <textarea name="Mensaje" id="Mensaje" placeholder="Escribí tu consulta" maxlength="500"
+                        required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
 
-                <textarea name="Mensaje" id="Mensaje" placeholder="Escribí tu consulta" maxlength="500" required></textarea>
+            <div class="musica_de_espera">
+                <h2>//Contame tu idea mientras escuchas este temon</h2>
+                <iframe data-testid="embed-iframe" style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/2LHNTC9QZxsL3nWpt8iaSR?utm_source=generator&theme=0"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+            </div>
 
-                <input type="submit">
-            </form>
+            <aside class="redes">
+                <a class="aside_interaccion" id="be" href="#">
+                    <img src="img/behance.png" width="80" height="80" alt="logo_behance">
+                </a>
+                <a href="https://www.instagram.com/wg.lenah.dg/" target="_blank" rel="noopener" class="boton_ig">
+                    <img src="img/instagram.png" alt="logo_instagram" width="80" height="80">
+                </a>
+            </aside>
         </section>
     </main>
 
-        <footer>
-        <div class="canción">
-            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2LHNTC9QZxsL3nWpt8iaSR?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <footer>
+        <div class="copyright">
+            <img src="img/copyright.png" height="50" width="50" alt="copyright"/>
+            <h3>2025-Miño Milena//Todos los derechos reservados</h3>
         </div>
         <div class="contacto">
             <h3>Trabajemos Juntos</h3>
-            <p>Si te gusto mi trabajo, contáctame y le damos vida a tu idea</p>
-            <a href="#" class="contact-button">CONTACTO</a>
-        </div>
-        <div id="links">
-            <nav>
-                <a href="https://www.instagram.com/wg.lenah.dg/"><img src="img/insta.png" width="140"
-                        alt="instagram" /></a>
-                <a href="#"><img src="img/behance.png" width="140" alt="Behance" /></a>
-            </nav>
-            <p>milena0mino@gmail.com</p>
+            <a href="contacto.html" class="contact-button">CONTACTO</a>
         </div>
     </footer>
 

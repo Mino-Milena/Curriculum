@@ -53,7 +53,20 @@ header{
     border-color: #ffd1ff;
     border-radius: 10px;
     padding: 10px;
+    position: relative;
+	display: inline-block;
+	transition: transform 0.4s ease;
 }
+
+.boton:hover {
+    opacity: 1;
+	transform: scale(1.05);
+}
+
+#nav_abierto{
+    background-color: #1d1525;
+}
+
 
 main{
     display: flex;
@@ -78,7 +91,7 @@ h1 {
     font-size: 10rem;
 }
 
-#bajada{
+#bajada-h1{
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
@@ -296,38 +309,15 @@ h1 {
     padding: 25px;
 }
 
-/*trabaja conmigo*/
-
-#trabaja-conmigo{
-    background-color: #683166;
-    height: 200px;
-    margin: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-}
-
-h2{
-    font-size: 2.8rem;
-    font-weight: 400;
-    font-style: oblique;
-    color: #ffd1ff;
-}
-
 /*aca empieza el footer*/
 
 footer{
     background-color: #683166;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .contacto{
@@ -355,21 +345,31 @@ h3{
     border-radius: 15px;
     margin-top: 10px;
     font-weight: bold;
+    position: relative;
+	display: inline-block;
+	transition: transform 0.4s ease;
 }
 
-#links{
+.contact-button:hover {
+    opacity: 1;
+	transform: scale(1.05);
+}
+    
+
+.copyright{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    color: #ffd1ff;
-    font-size: 1.5rem;
+    gap: 20px;
+   
 }
 
 /*aca empieza el formulario*/
 
-.formulario{
+.contact{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 h4{
@@ -383,11 +383,10 @@ form{
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    background-color: #8e598c;
+    background-color:#8e598c;
     border-radius: 20px;
     padding: 25px;
     margin: 25px;
-    width: 50%;
 }
 
 input{
@@ -397,7 +396,15 @@ input{
     border-radius: 20px;
     padding: 15px;
     border: #ffd1ff;
-    color: #683166;
+}
+
+button{
+    background-color: #ffd1ff;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 15px;
+    border: #ffd1ff;
 }
 
 textarea{
@@ -410,3 +417,100 @@ textarea{
     border: #ffd1ff;
     color: #683166;
 }
+
+/*redes*/
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+    margin-right: 90px;
+}
+
+.boton_ig{
+    position: relative;
+	display: inline-block;
+	transition: transform 0.4s ease;
+}
+.boton_ig:hover {
+    opacity: 1;
+	transform: scale(1.05);
+}
+
+.musica_de_espera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*seccion-trabajos*/
+h2{
+    font-size: 2.8rem;
+    font-weight: 400;
+    font-style: oblique;
+    color: #683166;
+}
+
+.bajada-proyectos{
+    width: 56%;
+    font-size: 1.5rem;
+    color: #683166;
+}
+
+#branding{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+#galeria_proyectos{
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    width: 80%; 
+    margin: 45px auto;
+}
+
+/*seccion de galeria en tarjetas*/
+.tarjeta{
+    position: relative;
+    left: 0;
+    width: 100%; 
+    border-radius: 90px; 
+    height: 500px;
+    overflow: hidden; 
+    transition: .4s ease-in-out; 
+    flex: .15; 
+    max-width: 1000px;
+}
+
+.tarjeta img{
+    position: relative; 
+    height: 100%;
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.tarjeta:hover{
+    flex: 1 1 0; 
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+.boton_p{
+    position: relative;
+	display: inline-block;
+	transition: transform 0.4s ease;
+}
+.boton_p:hover {
+    opacity: 1;
+	transform: scale(1.05);
+}
+.boton_p img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+

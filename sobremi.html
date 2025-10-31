@@ -18,13 +18,13 @@
             </div>
             <ul class="botonera">
                 <li>
-                    <a class="boton" href="sobremi.html" target="_self">SOBRE MI</a>
+                    <a class="boton" href="sobremi.html" target="_self" id="nav_abierto">SOBRE MI</a>
                 </li>
                 <li>
-                    <a class="boton" href="trabajos.html">TRABAJOS</a>
+                    <a class="boton" href="trabajos.html" target="_self">TRABAJOS</a>
                 </li>
                 <li>
-                    <a class="boton" href="contacto.html">CONTACTO</a>
+                    <a class="boton" href="contacto.html" target="_self">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -33,33 +33,30 @@
     <main>
         <section id="hero">
             <h1>Milena Miño</h1>
-            <p id="bajada">Estudiante de Diseño y Comunicación Visual</p>
+            <p id="bajada-h1">Estudiante de Diseño y Comunicación Visual</p>
         </section>
         <!--seccion sobre mi-->
         <section id="sobre-mi">
             <img src="img/yo.jpg" alt="Mi foto del CV" width="406" height="360" class="foto_cv" />
             <div class="flexdatos">
                 <h3 id="subtitulo-presentación">Sobre mi</h3>
-                <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y
-                    Comunicación Visual en UNLa, me apasiona explorar la relación entre estética y mensaje. Busco
-                    integrar creatividad, estrategia y tecnología en proyectos que generen impacto, me motiva aprender y
-                    experimentar. Soy de Buenos Aires, Argentina. Acá comparto un poco de lo que soy.</p>
+                <p id="texto-presentación">¡Hola! Mi nombre es Milena pero me dicen Lena. Soy estudiante de Diseño y Comunicación Visual en UNLa, me apasiona explorar la relación entre estética y mensaje. Busco integrar mi vision creativa en distintos proyectos que generen impacto, me motiva aprender y experimentar. Soy de Buenos Aires, Argentina. Acá comparto lo que soy.</p>
             </div>
         </section>
         <!--Aca van mis conocimientos y experiencias-->
         <section id="conocimientos-experiencias">
             <article class="caja-estudios">
                 <h3 id="estudios">Estudios</h3>
-                <ol>
+                <ul>
                     <li class="titulos-estudios">Bachiller de Ciencias Sociales</li>
                     <p class="bajadas-estudios"> Colegio Modelo Sara Eccleston (2008- 2020)</p>
                     <li class="titulos-estudios">Lic. en Diseño y Comunicación Visual</li>
                     <p class="bajadas-estudios">Universidad de Nacional de Lanús (Abril 2022- en curso)</p>
-                </ol>
+                </ul>
             </article>
             <article id="flex-experiencia-laboral">
                 <h3 class="trabajos">Experiencia Laboral</h3>
-                <ol>
+                <ul>
                     <li>
                         <h4 class="titulos-trabajo">Atención al publico </h4>
                         <p class="bajada-trabajos">Vendedora de ropa (Julio 2022- Septiembre 2023)</p>
@@ -72,31 +69,37 @@
                         <h4 class="titulos-trabajo">Diseñadora Freelance</h4>
                         <p class="bajada-trabajos">Agosto 2024 - actualidad</p>
                     </li>
-                </ol>
+                </ul>
             </article>
         </section>
         <!--Otras skills-->
         <section id="flex-aptitudes">
             <article class="caja-idiomas">
                 <h4 id="idioma-titulo">Idiomas</h4>
-                <ul id="idiomas">
-                    <li>Español</li>
+                <p>Español</p>
+                <div>
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
-                    <li>Ingles</li>
+                </div>
+                <p> Ingles</p>
+                <div>
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <li>Japones</li>
+                </div>
+                <p>Japones</p>
+                <div>
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
                     <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                    <li>Frances</li>
+                </div>
+                <p>Frances</p>
+                <div>
                     <img src="img/estrellacompleta.png" width="50" alt="estrellita" />
                     <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
                     <img src="img/bordeestrella.png" width="50" alt="estrellita-borde" />
-                </ul>
+                </div>
             </article>
             <div id="flex-skills">
                 <h4 id="titulo-skill">Manejo de</h4>
@@ -109,27 +112,15 @@
         </section>
     </main>
     <footer>
-        <div class="canción">
-            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2LHNTC9QZxsL3nWpt8iaSR?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <div class="copyright">
+            <img src="img/copyright.png" height="50" width="50" alt="copyright"/>
+            <h3>2025-Miño Milena//Todos los derechos reservados</h3>
         </div>
         <div class="contacto">
             <h3>Trabajemos Juntos</h3>
-            <p>Si te gusto mi trabajo, contáctame y le damos vida a tu idea</p>
             <a href="contacto.html" class="contact-button">CONTACTO</a>
         </div>
-        <div id="links">
-            <nav>
-                <a href="https://www.instagram.com/wg.lenah.dg/"><img src="img/insta.png" width="140"
-                        alt="instagram" /></a>
-                <a href="#"><img src="img/behance.png" width="140" alt="Behance" /></a>
-            </nav>
-            <p>milena0mino@gmail.com</p>
-        </div>
     </footer>
-
-
-
-
 </body>
 
 </html>
