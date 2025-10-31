@@ -723,6 +723,10 @@ h2{
     height: 100px;
   }
 
+  .text_moon_stars h1{
+    font-size: 2.5rem;
+  }
+
   .text-area {
     flex-direction: column;
     align-items: center;
